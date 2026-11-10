@@ -170,7 +170,7 @@ function App() {
           <div className="education-strip">
             <div><span className="eyebrow">EDUCATION</span><strong>University of Calgary</strong></div>
             <div><span className="eyebrow">DEGREES</span><strong>BSc, Software Engineering<br />BComm, Business</strong></div>
-            <div><span className="eyebrow">ACADEMIC RECORD</span><strong>3.90 GPA · Dean's List</strong></div>
+            <div><span className="eyebrow">GPA BY DEGREE</span><strong>BComm: 3.92<br />BSc: 3.88<br />Dean's List</strong></div>
           </div>
           <div className="achievement-line">
             <span className="eyebrow">SELECTED RECOGNITION</span>
@@ -211,7 +211,7 @@ function App() {
             {projects.map((project) => (
               <article className="project-card" key={project.number}>
                 <div className="project-visual">
-                  <span className="project-index">{project.number} / 03</span>
+                  <span className="project-index">{project.number} / 04</span>
                   {project.number === "01" ? <div className="signal-art"><div className="signal-line" /><div className="signal-line second" /><span>DATA<br />ACQUISITION</span></div> :
                    project.number === "02" ? <div className="orbit-art"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit-core">G</div><span>PLAN / LEARN / GROW</span></div> :
                    <div className="bars-art"><div /><div /><div /><div /><div /><span>INSIGHT → ACTION</span></div>}
@@ -232,9 +232,9 @@ function App() {
         </section>
 
         <section className="skills-section section-wrap" id="skills">
-          <div className="section-label"><span>04</span> / TOOLKIT</div>
+          <div className="section-label"><span>04</span> / SKILLS &amp; TOOLS</div>
           <div className="skills-layout">
-            <h2>A versatile<br /><em>toolkit.</em></h2>
+            <h2>What I<br /><em>work with.</em></h2>
             <div className="skills-grid">
               {skills.map(group => (
                 <div className="skill-group" key={group.label}>
