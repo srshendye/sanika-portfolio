@@ -181,7 +181,10 @@ function App() {
         <section className="intro-section section-wrap" id="about">
           <div className="section-label"><span>01</span> / ABOUT</div>
           <div className="intro-grid">
-            <h2>Technology and business,<br /><em>in practice.</em></h2>
+            <div className="intro-heading">
+              <h2>Technology and business,<br /><em>in practice.</em></h2>
+              <img className="portrait-image" src="/sanika-portrait.jpg" alt="Sanika Shendye graduation portrait" />
+            </div>
             <div className="intro-copy">
               <p className="large-copy">My interests sit where software, data, and business decisions meet, particularly in risk management and using analysis to understand and quantify uncertainty.</p>
               <p>My background combines software engineering and business, with experience in software development, data analytics, visualization, and cross-functional projects. I'm interested in using technology and analysis to help solve practical business problems.</p>
@@ -310,11 +313,11 @@ function App() {
         <section className="interests-section section-wrap" id="interests">
           <div className="section-label"><span>06</span> / OUTSIDE OF WORK</div>
           <div className="interests-layout">
-            <h2>Beyond<br /><em>the work.</em></h2>
+            <h2>Outside<br /><em>of work.</em></h2>
             <div className="interests-content">
               <p>A few things I enjoy outside of work and school.</p>
               <div className="interests-list">
-                {["Yoga", "Swimming", "Pilates", "Weightlifting", "Skiing", "Pottery", "Baking", "Reading", "Formula 1", "Hockey"].map(item => (
+                {["Yoga", "Swimming", "Pilates", "Weightlifting", "Skiing", "Pottery", "Baking", "Reading", "Formula 1", "Hockey", "Travelling"].map(item => (
                   <span key={item}>{item}</span>
                 ))}
               </div>
@@ -341,7 +344,7 @@ function App() {
 
       <footer className="footer section-wrap">
         <a className="wordmark" href="#home">SS<span>.</span></a>
-        <span>Designed with intention. © {new Date().getFullYear()} Sanika Shendye.</span>
+        <span>© {new Date().getFullYear()} Sanika Shendye.</span>
         <a href="#home">Back to top <ArrowRight size={14} /></a>
       </footer>
     </div>
