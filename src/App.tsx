@@ -46,9 +46,9 @@ const experience = [
     period: "November 2021 — August 2023",
     place: "Calgary, Alberta",
     description:
-      "Provided individualized math and English instruction, adapting lessons and learning activities to students' needs and supporting the delivery of summer learning programs.",
+      "Provided individualized math and English instruction to students from kindergarten through Grade 12, adapting lessons and learning activities to different ages, grade levels, and learning needs. Also supported the delivery of summer learning programs.",
     details: [
-      "Worked with students on math and English concepts, adjusting explanations, practice activities, and lesson pacing to suit different learning needs and levels of understanding.",
+      "Taught math and English to students from kindergarten through Grade 12, adjusting explanations, practice activities, and lesson pacing to suit different grade levels and levels of understanding.",
       "Prepared and adapted curriculum-based lesson plans to reinforce classroom learning, build foundational skills, and help students work toward their learning goals.",
       "Contributed to summer camp curriculum and activities, helping organize engaging learning experiences and maintain a supportive classroom environment.",
       "Built communication and interpersonal skills through regular interaction with students, families, and fellow instructors."
