@@ -130,7 +130,7 @@ function App() {
           {menuOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
         <nav className={menuOpen ? "nav-links open" : "nav-links"}>
-          {[["About", "#about"], ["Experience", "#experience"], ["Projects", "#projects"], ["Skills", "#skills"]].map(([label, href]) =>
+          {[["About", "#about"], ["Experience", "#experience"], ["Projects", "#projects"], ["Coursework", "#coursework"], ["Skills", "#skills"]].map(([label, href]) =>
             <a key={label} href={href} onClick={closeMenu}>{label}</a>
           )}
           <a className="nav-contact" href="#contact" onClick={closeMenu}>Get in touch <ArrowUpRight size={14} /></a>
@@ -149,11 +149,11 @@ function App() {
               <div className="hero-side">
                 <span className="eyebrow">BASED IN</span>
                 <span className="location"><MapPin size={14} /> Calgary, Canada</span>
+                <span className="relocation-note">Open to relocation</span>
                 <a className="text-link" href="#about">A little about me <ArrowDownRight size={16} /></a>
               </div>
             </div>
           </motion.div>
-          <div className="hero-rule"><span>TECHNOLOGY</span><span>BUSINESS</span><span>ANALYSIS</span><span>01 — 05</span></div>
         </section>
 
         <section className="intro-section section-wrap" id="about">
@@ -231,8 +231,49 @@ function App() {
           </div>
         </section>
 
+        <section className="coursework-section section-wrap" id="coursework">
+          <div className="section-label"><span>04</span> / RELEVANT COURSEWORK</div>
+          <div className="section-heading-row">
+            <h2>What I've<br /><em>studied.</em></h2>
+            <p className="section-aside">Selected coursework across business, analytics, and software engineering.</p>
+          </div>
+          <div className="coursework-grid">
+            <div className="coursework-group">
+              <h3>Business &amp; Strategy</h3>
+              <ul>
+                <li>Strategic Management</li>
+                <li>Business Negotiations</li>
+                <li>Corporate Governance &amp; Ethical Decision-Making</li>
+                <li>Financial Management</li>
+                <li>Security Analysis &amp; Investments</li>
+                <li>Business Analytics</li>
+              </ul>
+            </div>
+            <div className="coursework-group">
+              <h3>Data &amp; Analytics</h3>
+              <ul>
+                <li>Predictive Models for Business Analytics</li>
+                <li>Prescriptive Models for Business Analytics</li>
+                <li>Introduction to Business Analytics</li>
+                <li>Probability &amp; Statistics for Engineers</li>
+              </ul>
+            </div>
+            <div className="coursework-group">
+              <h3>Software &amp; Systems</h3>
+              <ul>
+                <li>Database Management Systems</li>
+                <li>Software Architecture</li>
+                <li>Software Requirements Engineering</li>
+                <li>Software Project Management</li>
+                <li>Web-Based Systems</li>
+                <li>Network Systems Security</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section className="skills-section section-wrap" id="skills">
-          <div className="section-label"><span>04</span> / SKILLS &amp; TOOLS</div>
+          <div className="section-label"><span>05</span> / SKILLS &amp; TOOLS</div>
           <div className="skills-layout">
             <h2>What I<br /><em>work with.</em></h2>
             <div className="skills-grid">
@@ -247,13 +288,14 @@ function App() {
         </section>
 
         <section className="contact-section section-wrap" id="contact">
-          <div className="section-label"><span>05</span> / CONTACT</div>
+          <div className="section-label"><span>06</span> / CONTACT</div>
           <div className="contact-layout">
             <div>
               <h2>Get in<br /><em>touch.</em></h2>
               <p>Interested in connecting about opportunities, ideas, or work at the intersection of technology and business? I'd be happy to hear from you.</p>
             </div>
             <div className="contact-links">
+              <p className="relocation-contact">Based in Calgary, AB · Open to relocation</p>
               <a href="mailto:srshendye@gmail.com"><Mail size={17} /> srshendye@gmail.com <ArrowUpRight size={16} /></a>
               <a href="https://www.linkedin.com/in/sanika-shendye/" target="_blank" rel="noreferrer"><Linkedin size={17} /> LinkedIn <ArrowUpRight size={16} /></a>
               <a className="resume-link" href="/resume.pdf" target="_blank" rel="noreferrer"><Download size={17} /> Download résumé <ArrowUpRight size={16} /></a>
