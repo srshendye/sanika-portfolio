@@ -250,7 +250,7 @@ function App() {
           <div className="section-label"><span>05</span> / CONTACT</div>
           <div className="contact-layout">
             <div>
-              <h2>Let's start a<br /><em>conversation.</em></h2>
+              <h2>Get in<br /><em>touch.</em></h2>
               <p>Interested in connecting about opportunities, ideas, or work at the intersection of technology and business? I'd be happy to hear from you.</p>
             </div>
             <div className="contact-links">
