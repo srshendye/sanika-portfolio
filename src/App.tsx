@@ -13,14 +13,15 @@ const experience = [
     period: "May 2024 — August 2025",
     place: "Calgary, Alberta",
     description:
-      "Contributed primarily to the Evo Viewer, working on the front-end experience for users exploring complex geoscience data.",
+      "Worked on the front-end of Seequent Evo, a cloud-based platform for working with geoscience data. My work focused primarily on the Evo Viewer, contributing to the user experience and the reliability of a complex web application.",
     details: [
-      "Resolved 50+ front-end bugs and performance issues in the Evo Viewer across a React and TypeScript codebase during a 16-month term.",
-      "Mentored a new team member through documentation, best practices, and system context, and conducted peer code reviews.",
-      "Participated in sprint planning, code reviews, and feature demos, communicating technical updates to engineering and non-technical stakeholders.",
-      "Enhanced user engagement tracking and reporting through Google Analytics event metrics."
+      "Resolved more than 50 front-end bugs and performance issues across a React and TypeScript codebase over a 16-month co-op term. This involved investigating reported behaviour, tracing issues through the application, and implementing and validating fixes.",
+      "Contributed to the viewer experience for users exploring 3D geoscience data, working with visualization technologies and APIs including CesiumJS and iTwin-related tools.",
+      "Worked within an established agile development process, participating in sprint planning, stand-ups, retrospectives, feature demonstrations, and code reviews. Shared progress and technical context with both engineering teammates and non-technical stakeholders.",
+      "Supported onboarding and knowledge-sharing by documenting workflows and codebase context, helping a new team member get familiar with the project, and providing peer feedback through code reviews.",
+      "Used Google Analytics event tracking to help monitor user engagement and provide visibility into how users interacted with the application."
     ],
-    tags: ["React", "TypeScript", "Performance", "Agile", "Google Analytics"]
+    tags: ["React", "TypeScript", "CesiumJS", "3D visualization", "Agile", "Google Analytics"]
   },
   {
     number: "02",
@@ -29,13 +30,14 @@ const experience = [
     period: "May 2023 — August 2023",
     place: "Calgary, Alberta",
     description:
-      "Supported business-wide reporting and operational visibility through analytics, automation, and cross-functional collaboration.",
+      "Supported production engineering and business reporting through data visualization, process automation, and collaboration with teams across the organization.",
     details: [
-      "Led a company-wide Power BI reporting initiative sponsored by the COO, gathering requirements across three Canadian offices and presenting proposals to executive leadership.",
-      "Created real-time digital signage of critical business metrics deployed across all three offices.",
-      "Automated repetitive reporting tasks using Power Automate and documented data sources, processes, and best practices."
+      "Led a company-wide Power BI reporting initiative sponsored by the COO. Worked with stakeholders across three Canadian offices to understand reporting needs, gather requirements, and shape proposals for how key business metrics could be presented.",
+      "Developed Power BI reporting and KPI visualizations to make operational information easier to access and interpret, and presented project proposals and updates to executive leadership.",
+      "Created digital signage displaying critical business metrics across all three offices, helping make reporting more visible and accessible to employees.",
+      "Used Power Automate to streamline repetitive reporting tasks and supported continuity by documenting data sources, reporting processes, and relevant best practices."
     ],
-    tags: ["Power BI", "DAX", "Power Automate", "Executive communication"]
+    tags: ["Power BI", "DAX", "Power Automate", "KPI reporting", "Stakeholder engagement"]
   },
   {
     number: "03",
@@ -44,11 +46,31 @@ const experience = [
     period: "November 2021 — August 2023",
     place: "Calgary, Alberta",
     description:
-      "Delivered individualized instruction and developed curriculum-based lesson plans and summer camp programs.",
+      "Provided individualized math and English instruction, adapting lessons and learning activities to students' needs and supporting the delivery of summer learning programs.",
     details: [
-      "Adapted lesson plans to support students in reaching grade-level proficiency."
+      "Worked with students on math and English concepts, adjusting explanations, practice activities, and lesson pacing to suit different learning needs and levels of understanding.",
+      "Prepared and adapted curriculum-based lesson plans to reinforce classroom learning, build foundational skills, and help students work toward their learning goals.",
+      "Contributed to summer camp curriculum and activities, helping organize engaging learning experiences and maintain a supportive classroom environment.",
+      "Built communication and interpersonal skills through regular interaction with students, families, and fellow instructors."
     ],
-    tags: ["Communication", "Teaching", "Program development"]
+    tags: ["Tutoring", "Lesson planning", "Curriculum development", "Communication"]
+  },
+  {
+    number: "04",
+    role: "Sales Associate and Cash Lead",
+    company: "Bath & Body Works Canada",
+    period: "July 2021 — August 2022",
+    place: "Calgary, Alberta",
+    description:
+      "Supported sales floor and front-of-store operations in a busy retail environment, combining customer service and product recommendations with cash leadership and merchandising support.",
+    details: [
+      "Consistently met candle sales conversion targets by engaging customers, understanding what they were looking for, and recommending scents suited to their preferences and needs.",
+      "Served as Cash Lead during peak periods, helping manage customer flow at the registers, supporting an efficient checkout experience, and keeping front-of-store operations organized.",
+      "Helped onboard and mentor new seasonal associates on the point-of-sale system, sharing practical guidance and helping them become comfortable with checkout procedures.",
+      "Assisted with floor plans for promotional events and sales campaigns, helping prepare the store layout for changing merchandise and seasonal priorities.",
+      "Supported shipment processing and inventory counts to keep products stocked, organized, and accurately represented on the sales floor."
+    ],
+    tags: ["Customer service", "Retail operations", "Cash leadership", "Sales", "Inventory"]
   }
 ];
 
