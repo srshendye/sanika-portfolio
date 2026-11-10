@@ -161,9 +161,9 @@ function App() {
           <div className="intro-grid">
             <h2>Technology and business,<br /><em>in practice.</em></h2>
             <div className="intro-copy">
-              <p className="large-copy">My interests sit where software, data, and business decisions meet.</p>
+              <p className="large-copy">My interests sit where software, data, and business decisions meet, particularly in risk management and using analysis to understand and quantify uncertainty.</p>
               <p>My background combines software engineering and business, with experience in software development, data analytics, visualization, and cross-functional projects. I'm interested in using technology and analysis to help solve practical business problems.</p>
-              <p>I'm at my best when I can move between the details and the bigger picture: asking good questions, making sense of complexity, and working with people to move an idea forward.</p>
+              <p>I'm especially interested in how organizations identify and assess risk, quantify potential impacts, and use that insight to make better-informed decisions. I enjoy moving between the details and the bigger picture, asking good questions, and working with people to move an idea forward.</p>
               <a className="text-link" href="#experience">Explore my experience <ArrowDownRight size={16} /></a>
             </div>
           </div>
@@ -244,6 +244,7 @@ function App() {
                 <li>Financial Management</li>
                 <li>Security Analysis &amp; Investments</li>
                 <li>Business Analytics</li>
+                <li>Risk Management</li>
               </ul>
             </div>
             <div className="coursework-group">
