@@ -130,7 +130,7 @@ function App() {
           {menuOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
         <nav className={menuOpen ? "nav-links open" : "nav-links"}>
-          {[["About", "#about"], ["Experience", "#experience"], ["Projects", "#projects"], ["Coursework", "#coursework"], ["Skills", "#skills"]].map(([label, href]) =>
+          {[["About", "#about"], ["Experience", "#experience"], ["Projects", "#projects"], ["Coursework", "#coursework"], ["Skills", "#skills"], ["Interests", "#interests"]].map(([label, href]) =>
             <a key={label} href={href} onClick={closeMenu}>{label}</a>
           )}
           <a className="nav-contact" href="#contact" onClick={closeMenu}>Get in touch <ArrowUpRight size={14} /></a>
@@ -285,8 +285,23 @@ function App() {
           </div>
         </section>
 
+        <section className="interests-section section-wrap" id="interests">
+          <div className="section-label"><span>06</span> / OUTSIDE OF WORK</div>
+          <div className="interests-layout">
+            <h2>Beyond<br /><em>the work.</em></h2>
+            <div className="interests-content">
+              <p>A few things I enjoy outside of work and school.</p>
+              <div className="interests-list">
+                {["Yoga", "Swimming", "Pilates", "Weightlifting", "Skiing", "Pottery", "Baking", "Reading", "Formula 1", "Hockey"].map(item => (
+                  <span key={item}>{item}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="contact-section section-wrap" id="contact">
-          <div className="section-label"><span>06</span> / CONTACT</div>
+          <div className="section-label"><span>07</span> / CONTACT</div>
           <div className="contact-layout">
             <div>
               <h2>Get in<br /><em>touch.</em></h2>
