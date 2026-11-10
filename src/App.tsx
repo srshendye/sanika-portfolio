@@ -229,7 +229,7 @@ function App() {
         <section className="projects-section section-wrap" id="projects">
           <div className="section-label"><span>03</span> / SELECTED WORK</div>
           <div className="section-heading-row">
-            <h2>Ideas into<br /><em>something useful.</em></h2>
+            <h2>Things I've<br /><em>worked on.</em></h2>
             <p className="section-aside">A few examples of how I approach problems, from early product thinking to technical implementation and analysis.</p>
           </div>
           <div className="project-grid">
