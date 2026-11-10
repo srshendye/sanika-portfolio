@@ -210,14 +210,11 @@ function App() {
           <div className="project-grid">
             {projects.map((project) => (
               <article className="project-card" key={project.number}>
-                <div className="project-visual">
-                  <span className="project-index">{project.number} / 04</span>
-                  {project.number === "01" ? <div className="signal-art"><div className="signal-line" /><div className="signal-line second" /><span>DATA<br />ACQUISITION</span></div> :
-                   project.number === "02" ? <div className="orbit-art"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><div className="orbit-core">G</div><span>PLAN / LEARN / GROW</span></div> :
-                   <div className="bars-art"><div /><div /><div /><div /><div /><span>INSIGHT → ACTION</span></div>}
-                </div>
                 <div className="project-content">
-                  <div className="project-category">{project.category}</div>
+                  <div className="project-meta">
+                    <span className="project-category">{project.category}</span>
+                    <span className="project-index">{project.number} / 04</span>
+                  </div>
                   <h3>{project.title}</h3>
                   <p className="project-subtitle">{project.subtitle}</p>
                   <p>{project.description}</p>
