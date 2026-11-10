@@ -112,10 +112,10 @@ const projects = [
 ];
 
 const skills = [
-  { label: "Business & analysis", items: ["Problem structuring", "Requirements gathering", "Stakeholder communication", "Process improvement", "Project coordination"] },
-  { label: "Data & decision support", items: ["SQL", "Power BI", "DAX", "Python", "Data analysis", "Reporting"] },
-  { label: "Technology", items: ["React", "TypeScript", "Java", "C++", "HTML / CSS", "REST APIs"] },
-  { label: "Ways of working", items: ["Agile / Scrum", "Documentation", "Code review", "Cross-functional collaboration", "Presentation"] }
+  { label: "Business & analysis", items: ["Problem structuring", "Requirements gathering", "Stakeholder communication", "Process improvement", "Project coordination", "Risk assessment"] },
+  { label: "Data & decision support", items: ["SQL", "Power BI", "DAX", "Python", "Data analysis", "Statistical analysis", "Predictive & prescriptive modelling", "Data visualization", "Reporting"] },
+  { label: "Technology", items: ["React", "TypeScript", "JavaScript", "Java", "C++", "HTML / CSS", "REST APIs", "Git"] },
+  { label: "Tools & ways of working", items: ["VBA", "Power Automate", "Agile / Scrum", "Documentation", "Code review", "Cross-functional collaboration", "Presentation"] }
 ];
 
 function App() {
