@@ -9,13 +9,13 @@ const experience = [
   {
     number: "01",
     role: "Software Developer Intern (Co-op)",
-    company: "Seequent",
+    company: "Seequent Evo",
     period: "May 2024 — August 2025",
     place: "Calgary, Alberta",
     description:
-      "Contributed to a large-scale geoscience web application, improving front-end quality, performance, and the experience of users working with complex data.",
+      "Contributed primarily to the Evo Viewer, working on the front-end experience for users exploring complex geoscience data.",
     details: [
-      "Resolved 50+ front-end bugs and performance issues across a TypeScript and React application during a 16-month term.",
+      "Resolved 50+ front-end bugs and performance issues in the Evo Viewer across a React and TypeScript codebase during a 16-month term.",
       "Mentored a new team member through documentation, best practices, and system context, and conducted peer code reviews.",
       "Participated in sprint planning, code reviews, and feature demos, communicating technical updates to engineering and non-technical stakeholders.",
       "Enhanced user engagement tracking and reporting through Google Analytics event metrics."
@@ -68,6 +68,21 @@ const projects = [
   },
   {
     number: "02",
+    category: "DATA ANALYTICS · PERSONAL PROJECT",
+    title: "F1 Tire Strategy Analytics",
+    subtitle: "Exploring tire degradation and pit strategy",
+    description:
+      "Built a Python and SQL pipeline using FastF1 race data from 2022 to 2025 to explore tire degradation and race strategy across Formula 1 events.",
+    contribution:
+      "Developed the data pipeline and analyzed tire performance across races, including a circuit-specific exploration of Monza.",
+    stack: ["Python", "SQL", "FastF1", "Data analysis"],
+    outcome:
+      "Used race data to investigate tire performance patterns and how they relate to strategic decisions.",
+    link: "https://github.com/srshendye/f1-strategy-analytics",
+    linkLabel: "View project on GitHub"
+  },
+  {
+    number: "03",
     category: "BUSINESS INTELLIGENCE · PETRONAS",
     title: "Company-wide Power BI Reporting",
     subtitle: "Bringing critical business metrics into view",
@@ -80,17 +95,19 @@ const projects = [
       "Created real-time digital signage for critical business metrics across all three offices and supported maintainable reporting processes."
   },
   {
-    number: "03",
-    category: "SOFTWARE ENGINEERING · SEEQUENT",
-    title: "Geoscience Web Application",
-    subtitle: "Improving a complex, data-rich user experience",
+    number: "04",
+    category: "SOFTWARE ENGINEERING · SEEQUENT EVO",
+    title: "Seequent Evo Viewer",
+    subtitle: "Building a clearer way to explore geoscience data",
     description:
-      "Contributed to a large-scale TypeScript and React web application used in geoscience workflows, working on front-end quality and performance.",
+      "Worked primarily on the Evo Viewer, a web-based environment for viewing and working with geoscience data.",
     contribution:
-      "Resolved 50+ front-end bugs and performance issues, supported peer code reviews, and helped onboard a new team member.",
-    stack: ["React", "TypeScript", "Web applications", "Google Analytics"],
+      "Contributed front-end improvements in React and TypeScript, resolved 50+ bugs and performance issues, and supported onboarding and peer code reviews.",
+    stack: ["React", "TypeScript", "CesiumJS", "3D data visualization"],
     outcome:
-      "Strengthened application quality and supported better user engagement tracking through event metrics."
+      "Helped improve the quality and usability of the Evo Viewer through ongoing product development.",
+    link: "https://www.seequent.com/products-solutions/seequent-evo/",
+    linkLabel: "Explore Seequent Evo"
   }
 ];
 
@@ -124,7 +141,7 @@ function App() {
         <section className="hero section-wrap" id="home">
           <div className="hero-kicker"><span className="status-dot" /> PORTFOLIO / 2026</div>
           <motion.div initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }}>
-            <h1>Making sense<br />of <em>complexity.</em></h1>
+            <h1>Software, data,<br />and the <em>decisions</em><br /> behind them.</h1>
             <div className="hero-bottom">
               <p className="hero-intro">
                 I'm Sanika Shendye, an emerging professional interested in the intersection of technology, business, and analytical problem-solving.
@@ -142,10 +159,10 @@ function App() {
         <section className="intro-section section-wrap" id="about">
           <div className="section-label"><span>01</span> / ABOUT</div>
           <div className="intro-grid">
-            <h2>Curious by nature.<br /><em>Structured by design.</em></h2>
+            <h2>Technology and business,<br /><em>in practice.</em></h2>
             <div className="intro-copy">
-              <p className="large-copy">I enjoy working through ambiguous problems, understanding how systems fit together, and turning information into practical decisions.</p>
-              <p>My background combines software engineering and business, with experience spanning software development, data analytics, visualization, and collaborative project work. I'm especially interested in roles where technology enables better business outcomes.</p>
+              <p className="large-copy">My interests sit where software, data, and business decisions meet.</p>
+              <p>My background combines software engineering and business, with experience in software development, data analytics, visualization, and cross-functional projects. I'm interested in using technology and analysis to help solve practical business problems.</p>
               <p>I'm at my best when I can move between the details and the bigger picture: asking good questions, making sense of complexity, and working with people to move an idea forward.</p>
               <a className="text-link" href="#experience">Explore my experience <ArrowDownRight size={16} /></a>
             </div>
@@ -207,6 +224,7 @@ function App() {
                   <div className="contribution"><span className="eyebrow">MY CONTRIBUTION</span>{project.contribution}</div>
                   <div className="contribution"><span className="eyebrow">RESULT / LEARNING</span>{project.outcome}</div>
                   <div className="tag-row">{project.stack.map(t => <span className="tag" key={t}>{t}</span>)}</div>
+                  {project.link && <a className="project-link" href={project.link} target="_blank" rel="noreferrer">{project.linkLabel} <ArrowUpRight size={14} /></a>}
                 </div>
               </article>
             ))}
